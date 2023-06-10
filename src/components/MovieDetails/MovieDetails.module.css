@@ -1,0 +1,49 @@
+.back {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 700;
+    font-weight: 700;
+    color: black;
+    margin-right: 20px;
+
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #7FFFD4, inset -5px -5px 10px #ffffff;
+}
+
+.img {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.title{
+    margin-left: 20px;
+}
+
+.genres {
+    list-style: none;
+}
+
+.cast {
+    text-decoration: none;
+    margin: 0 20px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 700;
+    font-weight: 700;
+    color: black;
+    margin-right: 20px;
+
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #7FFFD4, inset -5px -5px 10px #ffffff;
+}
+
+.cast:hover,
+.cast:focus {
+    border: none;
+    color: black;
+    background: #7FFFD4;
+    box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #ffffff;
+}

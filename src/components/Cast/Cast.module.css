@@ -1,0 +1,12 @@
+.actor {
+    list-style-type: none;
+    border: 1px solid grey;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

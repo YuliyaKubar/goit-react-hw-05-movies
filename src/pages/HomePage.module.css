@@ -1,0 +1,15 @@
+.item {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #483D8B;
+    font-size: 18px;
+}
+
+.link:hover, 
+.link:focus {
+    color: #9400D3;
+}

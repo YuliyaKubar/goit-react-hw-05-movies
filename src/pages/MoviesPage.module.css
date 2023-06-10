@@ -1,0 +1,32 @@
+.form {
+    margin-left: 10px;
+}
+
+.input {
+    margin-right: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.btn {
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #7FFFD4, inset -5px -5px 10px #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    border: none;
+    color: black;
+    background: #7FFFD4;
+    box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #ffffff;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+
+}
