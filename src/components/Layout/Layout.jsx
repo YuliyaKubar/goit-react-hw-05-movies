@@ -9,9 +9,9 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <Suspense fallback={null} key={location.key}>
-        <Outlet />
-      </Suspense>
+      {/* <Suspense fallback={null} key={location.key}> */}
+      <Outlet />
+      {/* </Suspense> */}
     </>
   );
 };
