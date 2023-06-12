@@ -5,7 +5,7 @@ import Cast from './Cast/Cast';
 import MovieDetails from './MovieDetails/MovieDetails';
 import Layout from './Layout/Layout';
 import Reviews from 'components/Reviews/Reviews';
-import { useLocation } from 'react-router-dom/dist';
+// import { useLocation } from 'react-router-dom/dist';
 import StartPage from 'pages/HomePage';
 import MoviesPage from 'pages/MoviesPage';
 
