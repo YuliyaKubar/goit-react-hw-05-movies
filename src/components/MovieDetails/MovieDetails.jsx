@@ -52,7 +52,7 @@ const MovieDetails = () => {
       <Link to={'reviews'} className={css.cast}>
         Reviews
       </Link>
-      <Suspense>
+      <Suspense fallback={null}>
         <Outlet />
       </Suspense>
     </div>
