@@ -1,6 +1,8 @@
 import searchMovie from 'components/Api/searchMovie';
 import { useState, useEffect } from 'react';
+
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
+
 import css from './MoviesPage.module.css';
 
 const MoviesPage = () => {
