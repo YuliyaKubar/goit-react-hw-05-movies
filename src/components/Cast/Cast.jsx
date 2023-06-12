@@ -1,6 +1,7 @@
 import getCast from 'components/Api/getCast';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+
 import css from './Cast.module.css';
 
 const Cast = () => {
