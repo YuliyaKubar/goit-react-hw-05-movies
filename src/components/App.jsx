@@ -16,7 +16,7 @@ const App = () => {
         <Route
           index
           element={
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={null}>
               <StartPage />
             </Suspense>
           }
@@ -24,7 +24,7 @@ const App = () => {
         <Route
           path="movies"
           element={
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={null}>
               <MoviesPage />
             </Suspense>
           }
