@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import css from './HomePage.module.css';
 
-const HomePage = () => {
+const StartPage = () => {
   const [films, setFilms] = useState(null);
 
   useEffect(() => {
@@ -29,4 +29,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default StartPage;

@@ -6,7 +6,7 @@ import MovieDetails from './MovieDetails/MovieDetails';
 import Layout from './Layout/Layout';
 import Reviews from 'components/Reviews/Reviews';
 
-const HomePage = lazy(() => import('../pages/HomePage'));
+const StartPage = lazy(() => import('../pages/HomePage'));
 const MoviesPage = lazy(() => import('../pages/MoviesPage'));
 
 const App = () => {
@@ -16,15 +16,15 @@ const App = () => {
         <Route
           index
           element={
-            <Suspense>
-              <HomePage />
+            <Suspense fallback={<div>Loading...</div>}>
+              <StartPage />
             </Suspense>
           }
         />
         <Route
           path="movies"
           element={
-            <Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
               <MoviesPage />
             </Suspense>
           }
